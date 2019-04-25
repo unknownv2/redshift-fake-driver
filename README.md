@@ -87,7 +87,7 @@ stmt.execute(copySql)
 ### Run the application.
 #### With real S3
 - Specify region via `fake.awsRegion` system property.
-  - `ap-northeast-1` by default
+  - `us-east-1` by default
 
 #### With fake-s3
 - Specify s3 endpoint via `fake.awsS3Endpoint` system property.
