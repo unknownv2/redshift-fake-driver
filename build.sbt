@@ -9,7 +9,7 @@ crossScalaVersions := Seq(scala210, "2.11.12", "2.12.4")
 
 name := "redshift-fake-driver"
 
-licenses += "Apache 2" -> url("https://raw.githubusercontent.com/opt-tech/redshift-fake-driver/master/LICENSE")
+licenses += "Apache 2" -> url("https://raw.githubusercontent.com/unknownv2/redshift-fake-driver/master/LICENSE")
 
 organization := "jp.ne.opt"
 
