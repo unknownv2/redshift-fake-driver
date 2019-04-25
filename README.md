@@ -1,6 +1,6 @@
 # redshift-fake-driver
 
-[![Build Status](https://travis-ci.org/opt-tech/redshift-fake-driver.svg?branch=master)](https://travis-ci.org/opt-tech/redshift-fake-driver)
+[![Build Status](https://travis-ci.org/unknownv2/redshift-fake-driver.svg?branch=master)](https://travis-ci.org/unknownv2/redshift-fake-driver)
 
 redshift-fake-driver is a JDBC driver accepting Redshift specific commands (e.g. COPY, UNLOAD), which is useful for local testing.
 
