@@ -16,7 +16,7 @@ The driver uses `AWS SDK for Java` to connect to S3, so you can use mocking libr
 
 Some options are currently not supported.
 
-Contributions are welcome !
+Contributions are welcome!
 
 ## Requirements
 - S3 ([fake-s3](https://github.com/jubos/fake-s3) is OK)
@@ -24,29 +24,6 @@ Contributions are welcome !
 - `postgresql` or `h2` JDBC driver
 - Java >= 1.7
 - (If you use in Scala projects) Scala 2.10.x / 2.11.x / 2.12.x(Java 1.8)
-
-## Installation
-### Maven Java projects
-
-- Add following dependency to `pom.xml`
-
-```
-<dependency>
-    <groupId>jp.ne.opt</groupId>
-    <artifactId>redshift-fake-driver_2.11</artifactId>
-    <version>1.0.11</version>
-</dependency>
-```
-
-- Add other required dependencies (aws-java-sdk-s3, h2 or postgresql driver) to `pom.xml`.
-
-### SBT Projects
-- Add following dependency to `build.sbt`
-```
-"jp.ne.opt" %% "redshift-fake-driver" % "1.0.11"
-```
-
-- Add other required dependencies (aws-java-sdk-s3, h2 or postgresql driver) to `build.sbt`.
 
 ## Usage (with Postgresql)
 
@@ -93,6 +70,11 @@ stmt.execute(copySql)
 - Specify s3 endpoint via `fake.awsS3Endpoint` system property.
   - if you started a `fake-s3` server on `http://localhost:9444/`, specify `-Dfake.awsS3Endpoint="http://localhost:9444/"`. (trailing slash is required)
   - you do not have to change S3 URL in your SQL (copy/unload).
+
 ## License
 
 Apache 2.0
+
+## Original Project
+
+[The original project from Opt, Inc./ Opt Technologies can be found here.](https://github.com/opt-tech/redshift-fake-driver)
